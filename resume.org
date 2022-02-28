@@ -6,6 +6,13 @@
 | Name: | John Doe | Tel:    | +1 123 4567 8900     |
 | Sex:  | Male     | Email:  | [[mailto:will.b.chang@gmail.com][john.doe@example.com]] |
 | Age:  | 26       | GitHub: | [[https://github.com/johndoe][John Doe]]             |
+* Education
+** BITS Pilani, Goa Campus, India
+*** Aug 2005 - Jun 2009
+/B.E.(Hons.), Electrical and Electronics/, GPA: 8.31/10
+* Skills
+  - Most comfortable with :: Python, Javascript, Emacs Lisp, HTML/CSS, Qt, Git, Linux
+  - Have worked with :: Lua, Torch, Caffe, PySpark, R, Octave, Clojure, Go, C, Elm, Bash, LaTeX
 * Experience
 ** Software Developer at [[http://akvo.org][Akvo]]
 *** Sep 2016 - Present
@@ -16,13 +23,6 @@ organizations doing developmental work
 - Contributed quite a few of performance improvements to make the site snappier
 - General code quality improvements with better testing, apart from adding
   features and fixing bugs.
-** GSoC Mentor for [[https://summerofcode.withgoogle.com/projects/#4973810873270272][Zulip]]
-*** May - Aug, 2018
-Mentored a student who built a terminal client for Zulip using it's API.
-*** May - Aug, 2019
-Mentored a couple of students, one who worked on the terminal client the
-previous year as well, and another who worked on message archival and
-solidifying the email gateway for Zulip.
 ** Machine Learning Engineer at [[http://infilect.com][Infilect]]
 *** Jul 2015 - Mar 2016
 Worked on a fashion assistant leveraging deep neural networks for image based
@@ -39,13 +39,6 @@ Spent 12-weeks in a collaborative, self-directed, programming retreat. Here's a
   code
 - Worked with hardware and helped build a LED spectrum analyzer among other
   things
-** Software Developer at [[http://www.enthought.com][Enthought]]
-*** Sep 2011 - May 2014
-Primarily worked on [[https://www.enthought.com/products/canopy/][Canopy]] -- a Qt based development environment for
-Scientists/Engineers.
-- Helped design and build the first cut of an application platform for Python
-  based apps
-- Acquired some taste for good software design
 ** Research Associate at [[http://fossee.in][FOSSEE]], IIT Bombay
 *** Jul 2009 - Jul 2011
 Helped increase the adoption of Python in college through training.
@@ -72,10 +65,3 @@ An ~Emacs~ minor mode for blogging to Wordpress that's loved by many users for i
 ** [[https://github.com/punchagan/crumb][crumb]]
 *** Javascript, CSS
 An experimental Disqus-like commenting system that (ab)uses GitHub issues as the "database".
-* Education
-** BITS Pilani, Goa Campus, India
-*** Aug 2005 - Jun 2009
-/B.E.(Hons.), Electrical and Electronics/, GPA: 8.31/10
-* Skills
-  - Most comfortable with :: Python, Javascript, Emacs Lisp, HTML/CSS, Qt, Git, Linux
-  - Have worked with :: Lua, Torch, Caffe, PySpark, R, Octave, Clojure, Go, C, Elm, Bash, LaTeX
