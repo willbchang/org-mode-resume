@@ -1,0 +1,36 @@
+#+INCLUDE: settings.org
+
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{PingFang SC}
+
+#+TITLE:个人信息
+
+* 个人信息
+#+ATTR_LATEX: :environment tabularx :placement [h] :center t :width \linewidth
+| 姓名： | 张三 | 电话：  | 13345678900       |
+| 性别： | 男   | 邮箱：  | [[mailto:example@gmail.com][example@gmail.com]] |
+| 年龄： | 26   | GitHub: | [[https://github.com/example][example]]           |
+
+* 教育经历
+** XXX 大学
+*** 2011 - 2015
+计算机科学，本科
+
+* 个人技能
+- ​*操作系统*​：
+- ​*编程语言*​：
+- ​*框架*​：
+- ...
+
+* 工作经历
+** 某公司
+*** 2015 - 2022
+- 主要参与了...
+- 研发了...
+
+* 项目经历
+** 某项目
+*** 2016 - 至今
+- 主要用了什么技术
+- 解决了什么问题
+- 用户反馈如何
