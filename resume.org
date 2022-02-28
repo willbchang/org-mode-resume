@@ -1,14 +1,19 @@
-#+OPTIONS: toc:nil H:10 tex:t
+#+OPTIONS: toc:nil H:10 tex:t author:nil date:nil
 #+STARTUP: hidestars indent
-#+INCLUDE: personal-info.org
+
 #+LaTeX_HEADER: \usepackage{resume}
+#+LaTeX_HEADER: \usepackage{tabularx}
 #+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-blue}}
 #+LaTeX_CLASS_OPTIONS: [letterpaper]
 #+LaTeX_HEADER: \usepackage{enumitem}
 #+LaTeX_HEADER: \setlist{leftmargin=0.25in,nosep}
 
-{{{HEADER}}}
-
+#+TITLE:Resume
+* Contact
+#+ATTR_LATEX: :environment tabularx :placement [h] :center t :width \linewidth
+| Name: | John Doe | Tel:    | +1 123 4567 8900     |
+| Sex:  | Male     | Email:  | [[mailto:will.b.chang@gmail.com][john.doe@example.com]] |
+| Age:  | 26       | GitHub: | [[https://github.com/johndoe][John Doe]]             |
 * Experience
 ** Software Developer at [[http://akvo.org][Akvo]]
 *** Sep 2016 - Present
