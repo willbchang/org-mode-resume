@@ -1,0 +1,74 @@
+% This work is licensed under the Creative Commons
+% Attribution-NonCommercial-ShareAlike License. To view a copy of this license,
+% visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to
+% Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+% This file is adapted from Jesse Luehrs resume at
+% https://github.com/doy/resume/blob/master/resume.tex
+
+% <<< packages
+\RequirePackage{latexsym,amsmath,amssymb,charter,color,calc,hyperref,titlesec}
+\RequirePackage[empty]{fullpage}
+% >>>
+
+% <<< dimensions/margins
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\addtolength{\oddsidemargin}{-0.25in}
+\addtolength{\evensidemargin}{-0.25in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{10in}
+% >>>
+
+% <<< other definitions
+\definecolor{my-gray}{gray}{0.90}
+\definecolor{url-gray}{gray}{0.25}
+% >>>
+
+%% Document header
+\newcommand{\resheader}[6]{
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}
+    #3 & \textbf{\LARGE #1} & #5\\
+    #4 & \url{#2}           & #6\\
+    \end{tabular*}
+    \\
+    \vspace{0.1in}
+}
+
+%% Enumerations
+\def\labelitemi{--}
+
+%% Section Headings, etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\section}[1]{
+  \@startsection{section}{1}{0pt}{0pt}{0pt}{\normalfont}*{}
+  {
+    \large \colorbox{my-gray}{
+      \begin{minipage}
+        {\textwidth-0.175in}
+        {\textbf{#1 \vphantom{p\^{E}}}}
+      \end{minipage}
+    }
+  }
+}
+
+\titleformat{\subsection} %command
+            [block] %shape
+            {\bfseries} %format
+            {} %label
+            {0pt} %sep
+            {} %before-code
+            [] %after-code
+
+\titlespacing{\subsection}{0pt}{5pt}{0pt}[{0pt}]
+
+\titleformat{\subsubsection} %command
+            [block] %shape
+            {\vspace{-2.4ex}\small\it\raggedleft} %format
+            {} %label
+            {0pt} %sep
+            {} %before-code
+            [] %after-code
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}[{0pt}]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
