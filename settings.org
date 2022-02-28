@@ -1,0 +1,10 @@
+#+OPTIONS: toc:nil H:10 tex:t author:nil date:nil
+#+STARTUP: hidestars indent
+
+#+LaTeX_HEADER: \usepackage{resume}
+#+LaTeX_HEADER: \usepackage{tabularx}
+#+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-blue}}
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+#+LaTeX_HEADER: \usepackage{enumitem}
+#+LaTeX_HEADER: \setlist{leftmargin=0.25in,nosep}
+
