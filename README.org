@@ -1,8 +1,14 @@
-A repository for my resume.
+#+TITLE:Org Mode Resume
+Use the Org mode template files to generate resume in Chinese and English, based on [[https://github.com/punchagan/resume/tree/org-mode-resume][punchagan/resume]].
 
-Uses [[http://orgmode.org][Org-mode]] and a custom style sheet.  Every CV/Resume package has
-it's own environments and it's a big pain to combine them and
-customize them.  I figured, it would be easy to write my own
-style-sheet and use good old org-mode.
+* Requirements
+macOS
+#+begin_src sh
+brew install mactex-no-gui
+#+end_src
 
-Requires [[http://www.ctan.org/pkg/enumitem][enumitem package]] if you are using lists.
+* Usage
+Change the template file to your personal infomation, then call the function below in Emacs.
+#+begin_src emacs-lisp
+M-x org-latex-export-to-pdf
+#+end_src
