@@ -3,7 +3,7 @@
 #+LATEX_HEADER: \usepackage{xeCJK}
 #+LATEX_HEADER: \setCJKmainfont{PingFang SC}
 
-#+TITLE:个人信息
+#+TITLE:个人简历
 
 * 个人信息
 #+ATTR_LATEX: :environment tabularx :placement [h] :center t :width \linewidth
