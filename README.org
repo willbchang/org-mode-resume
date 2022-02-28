@@ -1,6 +1,8 @@
 #+TITLE:Org Mode Resume
 Use the Org mode template files to generate resume in Chinese and English, based on [[https://github.com/punchagan/resume/tree/org-mode-resume][punchagan/resume]].
 
+[[file:/resume.png]]
+
 * Requirements
 macOS
 #+begin_src sh
