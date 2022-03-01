@@ -9,6 +9,12 @@ macOS
 brew install mactex-no-gui
 #+end_src
 
+For Chinese([[./简历.org][简历.org]]), you may need to add the code below to your Emacs config.
+#+begin_src emacs-lisp
+(org-latex-pdf-process '("xelatex -interaction nonstopmode %f" "xelatex -interaction nonstopmode %f"))
+#+end_src
+
+
 * Usage
 Change the template file to your personal infomation, then call the function below in Emacs.
 #+begin_src emacs-lisp
